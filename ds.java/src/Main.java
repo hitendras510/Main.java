@@ -23,4 +23,5 @@ public class Main {
        System.out.println("word:" + c);
        System.out.println("Line:" + d);
 }
+
 }
