@@ -100,16 +100,16 @@ class Main {
 //        System.out.println("index number:"+ str.indexOf(str));
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//        StringBuilder str=new StringBuilder("Hello");
+        StringBuilder str=new StringBuilder("Hello");
 //        str.append("j"); //output = helloj //1. append
 //        System.out.println("Append:" + str);
 //        str.insert(2,"byee"); //Hebyeelloj //2.insert
-//        System.out.println(str);
+//        System.out.println("Insert:"+str);
 
 //        str.replace(1,4,"JAVA");
 //        System.out.println("Replace:" + str);
 
-//        str.delete(2,5);
+//        str.delete(2,4);
 //        System.out.println("Delete:" + str);
 
 //        str.deleteCharAt(1);
