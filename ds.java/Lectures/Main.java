@@ -124,6 +124,9 @@ class Main {
 //        str.length();
 //        System.out.println(str);
 
+
+
+
 //        StringBuilder str = new StringBuilder("I love java");
 //        String newStr = str.toString();
 //        StringBuilder result = new StringBuilder();
@@ -138,8 +141,20 @@ class Main {
 //        System.out.println(result.toString().trim());
 
 
-//
 
+
+String str = "aaaaabbbccd";
+StringBuilder result = new StringBuilder();
+int count = 1;
+
+for(int i=1;i<=str.length();i++){
+    if(str.charAt(i)==str.charAt(i-1)){
+        count++;
+    }else {
+        result.append(str.charAt(i-1));
+    }
+}
+result.append(count);
 
 
 
