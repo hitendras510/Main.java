@@ -109,7 +109,7 @@ class Main {
 //        str.replace(1,4,"JAVA");
 //        System.out.println("Replace:" + str);
 
-//        str.delete(2,4);
+//        str.delete(2,4);//
 //        System.out.println("Delete:" + str);
 
 //        str.deleteCharAt(1);
