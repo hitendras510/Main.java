@@ -99,7 +99,7 @@ import java.util.Scanner;
 //        System.out.println("start and end point as need :"+ str.substring(1 , 4));
 //        System.out.println("index number:"+ str.indexOf(str));
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//LECT4
 //        StringBuilder str=new StringBuilder("Hello");
 //        str.append("j"); //output = helloj //1. append
 //        System.out.println("Append:" + str);
@@ -166,16 +166,57 @@ import java.util.Scanner;
 //        System.out.println(result);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-class Main {
-    static int a=5; //static keyword to make it static
-    int data=20;
-    public static void main(String[] args) {
-   Main obj=new Main();
-   System.out.println("Non static var : " +obj.data);
-   System.out.println("non static var : "+ a);
+//lect 5
+//class Main {
+//    static int a=5; //"static" keyword to make var static
+//    int data=20;
 
-   int c = 70;
-   System.out.println("static var : " +c);
+//    static void Sum(){ //"static" keyword to make var static
+//        System.out.println("Hello");
+//    }
+
+//    public static void main(String[] args) {
+
+//   Main obj=new Main(); //to print non static var.
+//   System.out.println("Non static or instant var : " +obj.data);
+//   System.out.println("non static or instant var : "+ a);
+//
+//   int c = 70;
+//   System.out.println("static var : " +c);
+
+//Main obj = new Main();
+//        obj.Sum(); to call non static
+
+//Sum(); // to call when turned into static
+
+
+    //NON Static condition
+//class car{
+//
+//    String name="Hello";
+//    void Sum(){
+//        System.out.println(name);
+//    }
+//}
+//class Main {
+//    public static void main(String[] args) {
+//        car obj = new car();
+//        obj.Sum();
+
+    //turning into static
+//class car {
+// static String name = "Hello";
+//static void Sum() {
+//
+//System.out.println(name);
+//}
+//}
+//class Main{
+//    public static void main(String[] args) {
+//
+//        car.Sum();
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -183,6 +224,36 @@ class Main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// ////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// //////////////////////////////////////////////////////////////////////////////
 
 
 
