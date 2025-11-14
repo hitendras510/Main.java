@@ -252,40 +252,61 @@ import java.util.Scanner;
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // 8. Create a class Movie with name, rating, and releaseYear. Create 5 movie objects and display
 // movies released after 2020.
-class Movie{
-    String name;
-    double rating;
-    int year;
-    Movie(String name,double rating,int year){
-        this.name=name;
-        this.rating=rating;
-        this.year=year;
-    }
-}
-class Main{
-    public static void main(String[] args) {
-        Movie m1 = new Movie("KGF 2", 8.9, 2022);
-        Movie m2 = new Movie("Avengers Endgame", 9.0, 2019);
-        Movie m3 = new Movie("RRR", 9.2, 2022);
-        Movie m4 = new Movie("Dune", 8.3, 2021);
-        Movie m5 = new Movie("Joker", 8.7, 2019);
-
-        Movie[] movies={m1,m2,m3,m4,m5};
-
-        System.out.println("Movies released after 2020:");
-       for (int i=0;i<movies.length;i++){
-           if(movies[i].year>2020){
-               System.out.println(movies[i].name + " (" + movies[i].year + ")");
-           }
-       }
-
-    }
-}
+//class Movie{
+//    String name;
+//    double rating;
+//    int year;
+//    Movie(String name,double rating,int year){
+//        this.name=name;
+//        this.rating=rating;
+//        this.year=year;
+//    }
+//}
+//class Main{
+//    public static void main(String[] args) {
+//        Movie m1 = new Movie("KGF 2", 8.9, 2022);
+//        Movie m2 = new Movie("Avengers Endgame", 9.0, 2019);
+//        Movie m3 = new Movie("RRR", 9.2, 2022);
+//        Movie m4 = new Movie("Dune", 8.3, 2021);
+//        Movie m5 = new Movie("Joker", 8.7, 2019);
+//
+//        Movie[] movies={m1,m2,m3,m4,m5};
+//
+//        System.out.println("Movies released after 2020:");
+//       for (int i=0;i<movies.length;i++){
+//           if(movies[i].year>2020){
+//               System.out.println(movies[i].name + " (" + movies[i].year + ")");
+//           }
+//       }
+//
+//    }
+//}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //  9. Create a class Calculator with methods add, subtract, multiply, and divide. Use objects to call
 // these methods.
-
-
+//class Calculator{
+//    int add(int a,int b){
+//        return a+b;
+//    }
+//    int sub(int a,int b){
+//        return a-b;
+//    }
+//    int mul(int a,int b){
+//        return a*b;
+//    }
+//    double div(int a,int b){
+//        return(double) a/b;
+//    }
+//}
+//class Main{
+//    public static void main(String[] args) {
+//        Calculator c = new Calculator();
+//        System.out.println("Addition: " + c.add(10, 5));
+//        System.out.println("Subtraction: " + c.sub(10, 5));
+//        System.out.println("Multiplication: " + c.mul(10, 5));
+//        System.out.println("Division: " + c.div(10, 5));
+//    }
+//}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // 10. Create a class Laptop with brand, RAM, and price. Add a constructor to initialize values and a
 // method to display them
