@@ -153,25 +153,99 @@
 //}
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  5. Create a class Circle with radius. Write methods to calculate area and circumference of the circle.
-class Circle{
-    int radius;
-    int area;
-    int circumference;
-
-}
-
-
+//class Circle{
+//   int radius ;
+//  Circle(int r){
+//      radius = r;
+//  }
+//  double area(){
+//    return Math.PI*radius*radius;
+//  }
+//  double circumference(){
+//    return 2*Math.PI*radius;
+//  }
+//}
+//class Main{
+//   public static void main(String[] args){
+//       Circle c1 = new Circle(5);
+//       System.out.println("Area:"+c1.area());
+//       System.out.println("Circumference:"+c1.circumference());
+//   }
+//}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // 6. Create a class Book with title, author, and price. Add a method to apply a discount of 10% and
 // display the final price.
-
-
-
+//class Book{
+//    String title;
+//    String author;
+//    int price;
+//
+//    void setPrice(int p){
+//        price=p;
+//    }
+//    int applyDiscount(){
+//        int discountAmount=(price*10)/100; //10%
+//        int finalPrice=price-discountAmount;
+//        return finalPrice;
+//    }
+//}
+//
+//class Main{
+//    public static void main(String[] args) {
+//        Book book=new Book();
+//        book.title="JAVA programming";
+//        book.author="Great Hitendra Singh";
+//        book.setPrice(10980);
+//
+//        int finalPrice=book.applyDiscount();
+//
+//        System.out.println("Tile:"+book.title);
+//        System.out.println("Author:"+book.author);
+//        System.out.println("Final price after 10% discount:"+finalPrice);
+//    }
+//}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //  7. Create a class Employee with name, id, and salary. Write a method to give a 5% salary
 // increment. Print details before and after increment.
-
-
+// 7. Create a class Employee with name, id, and salary.
+// Write a method to give a 5% salary increment. Print details before and after increment.
+//class Employee {
+//    String name;
+//    int id;
+//    double salary;
+//
+//
+//    double giveIncrement() {
+//        double increment = (salary * 5) / 100;   // 5% of salary
+//        salary = salary + increment;             // update salary
+//        return salary;                           // return updated salary
+//    }
+//}
+//
+//class Main {
+//    public static void main(String[] args) {
+//
+//        Employee e1 = new Employee();
+//        e1.name = "John";
+//        e1.id = 11;
+//        e1.salary = 1000;
+//
+//
+//        System.out.println("Before increment:");
+//        System.out.println("Name: " + e1.name);
+//        System.out.println("ID: " + e1.id);
+//        System.out.println("Salary: " + e1.salary);
+//
+//        // Apply increment
+//        double finalSalary = e1.giveIncrement();
+//
+//
+//        System.out.println("\nAfter increment:");
+//        System.out.println("Name: " + e1.name);
+//        System.out.println("ID: " + e1.id);
+//        System.out.println("Updated Salary: " + finalSalary);
+//    }
+//}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // 8. Create a class Movie with name, rating, and releaseYear. Create 5 movie objects and display
 // movies released after 2020.
